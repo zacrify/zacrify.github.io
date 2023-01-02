@@ -58,7 +58,6 @@
   /* margin-right: 20px;
   margin-top: 10px; */
   border-radius: 12px;
-  width: 369px;
 }
 .frame1-card-elevated {
   top: 0px;
@@ -628,6 +627,6 @@
 @media(max-width: 767px) {
   .frame1-framecardrow {
     flex: 0 0 auto;
-    width: 100%;
+    width: 767px;
   }
 }
