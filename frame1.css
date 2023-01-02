@@ -1,0 +1,632 @@
+.frame1-frame1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+  background-color: #a59090;
+}
+.frame1-topappbar {
+  width: 100%;
+  height: 44px;
+  display: flex;
+  padding: 8px 4px;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 41px;
+  background-color: #4a3d46;
+}
+.frame1-text {
+  color: #e2deec;
+  height: auto;
+  flex-grow: 1;
+  align-self: auto;
+  text-align: center;
+  line-height: 28px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.frame1-framecardrow {
+  width: 100%;
+  height: 2057px;
+  display: flex;
+  justify-content: left;
+  padding: 0 40px;
+  position: relative;
+  flex-wrap: wrap;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  gap: 2vw;
+}
+
+.card {
+  border: $margin solid #4d4d4d;
+  flex: 1 0 auto;
+  height: 540px;
+  display: flex;
+  position: relative;
+  /* flex-grow: 1; */
+  align-items: flex-start;
+  /* flex-shrink: 0; */
+  border-color: transparent;
+  /* margin-right: 20px;
+  margin-top: 10px; */
+  border-radius: 12px;
+}
+.frame1-card-elevated {
+  top: 0px;
+  left: 0px;
+  width: 396px;
+  height: 540px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.30000001192092896) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0px;
+  border-radius: 12px;
+  background-color: rgba(255, 251, 254, 1);
+}
+.frame1-statelayer {
+  top: 0px;
+  left: 0px;
+  width: 396px;
+  height: 540px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame1-contentcontainer {
+  width: 412px;
+  height: 540px;
+  display: flex;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  border-color: transparent;
+  border-radius: 12px;
+}
+.frame1-media-textcontent {
+  top: 0px;
+  left: 0px;
+  width: 396px;
+  display: flex;
+  position: absolute;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.frame1-header {
+  display: flex;
+  padding: 12px 4px 12px 16px;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 0px;
+}
+.frame1-content {
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-items: center;
+  border-color: transparent;
+}
+.frame1-text02 {
+  width: 376px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+}
+.frame1-text03 {
+  color: rgba(28, 27, 31, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.frame1-media {
+  width: 396px;
+  height: 264px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 0px;
+  background-color: rgba(0, 0, 0, 1);
+}
+.frame1-text05 {
+  top: 7px;
+  left: 19px;
+  color: rgba(255, 255, 255, 1);
+  width: 321px;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 28px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.frame1-text06 {
+  color: rgba(255, 255, 255, 1);
+}
+.frame1-text07 {
+  color: rgba(255, 0, 0, 1);
+}
+.frame1-text08 {
+  color: rgba(255, 255, 255, 1);
+}
+.frame1-text14 {
+  color: rgba(255, 0, 0, 1);
+}
+.frame1-textcontent {
+  display: flex;
+  padding: 16px;
+  position: relative;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.frame1-text15 {
+  color: rgba(73, 69, 79, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 20px;
+  margin-right: 0;
+  margin-bottom: 32px;
+}
+.frame1-actions {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: flex-end;
+}
+.frame1-button {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-color: rgba(121, 116, 126, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame1-statelayer1 {
+  display: flex;
+  padding: 10px 24px;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  justify-content: center;
+}
+.frame1-text17 {
+  color: rgba(103, 80, 164, 1);
+  height: auto;
+  align-self: auto;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.frame1-card2 {
+  height: 540px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 40px;
+  border-radius: 12px;
+}
+.frame1-card-elevated1 {
+  top: 0px;
+  left: 0px;
+  width: 396px;
+  height: 540px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.30000001192092896) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0px;
+  border-radius: 12px;
+  background-color: rgba(255, 251, 254, 1);
+}
+.frame1-statelayer2 {
+  top: 0px;
+  left: 0px;
+  width: 396px;
+  height: 540px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame1-contentcontainer1 {
+  width: 415px;
+  height: 540px;
+  display: flex;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  border-color: transparent;
+  border-radius: 12px;
+}
+.frame1-media-textcontent1 {
+  top: 0px;
+  left: 0px;
+  width: 396px;
+  display: flex;
+  position: absolute;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.frame1-header1 {
+  display: flex;
+  padding: 12px 4px 12px 16px;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 0px;
+}
+.frame1-content1 {
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-items: center;
+  border-color: transparent;
+}
+.frame1-text19 {
+  width: 376px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+}
+.frame1-text20 {
+  color: rgba(28, 27, 31, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.frame1-media1 {
+  width: 396px;
+  height: 264px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 0px;
+  background-color: rgba(0, 0, 0, 1);
+}
+.frame1-text22 {
+  top: 7px;
+  left: 19px;
+  color: rgba(255, 255, 255, 1);
+  width: 321px;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 28px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.frame1-text23 {
+  color: rgba(255, 255, 255, 1);
+}
+.frame1-text24 {
+  color: rgba(255, 0, 0, 1);
+}
+.frame1-textcontent1 {
+  display: flex;
+  padding: 16px;
+  position: relative;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.frame1-text39 {
+  color: rgba(73, 69, 79, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 20px;
+  margin-right: 0;
+  margin-bottom: 32px;
+}
+.frame1-actions1 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: flex-end;
+}
+.frame1-button1 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-color: rgba(121, 116, 126, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame1-statelayer3 {
+  display: flex;
+  padding: 10px 24px;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  justify-content: center;
+}
+.frame1-text41 {
+  color: rgba(103, 80, 164, 1);
+  height: auto;
+  align-self: auto;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.frame1-card3 {
+  height: 540px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  border-radius: 12px;
+}
+.frame1-card-elevated2 {
+  top: 0px;
+  left: 0px;
+  width: 396px;
+  height: 540px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.30000001192092896) ;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 0px;
+  border-radius: 12px;
+  background-color: rgba(255, 251, 254, 1);
+}
+.frame1-statelayer4 {
+  top: 0px;
+  left: 0px;
+  width: 396px;
+  height: 540px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame1-contentcontainer2 {
+  width: 396px;
+  height: 540px;
+  display: flex;
+  z-index: 1;
+  overflow: hidden;
+  position: relative;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  border-color: transparent;
+  border-radius: 12px;
+}
+.frame1-media-textcontent2 {
+  top: 0px;
+  left: 0px;
+  width: 396px;
+  display: flex;
+  position: absolute;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.frame1-header2 {
+  display: flex;
+  padding: 12px 4px 12px 16px;
+  position: relative;
+  align-self: stretch;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 0px;
+}
+.frame1-content2 {
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-items: center;
+  border-color: transparent;
+}
+.frame1-text43 {
+  width: 376px;
+  display: flex;
+  position: relative;
+  flex-grow: 1;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+}
+.frame1-text44 {
+  color: rgba(28, 27, 31, 1);
+  height: auto;
+  align-self: stretch;
+  text-align: left;
+  line-height: 24px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.frame1-media2 {
+  width: 396px;
+  height: 264px;
+  display: flex;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 0px;
+  background-color: rgba(0, 0, 0, 1);
+}
+.frame1-text46 {
+  top: 7px;
+  left: 19px;
+  color: rgba(255, 255, 255, 1);
+  width: 321px;
+  height: auto;
+  position: absolute;
+  align-self: auto;
+  text-align: left;
+  line-height: 28px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+.frame1-text47 {
+  color: rgba(255, 255, 255, 1);
+}
+.frame1-text48 {
+  color: rgba(255, 0, 0, 1);
+}
+.frame1-textcontent2 {
+  display: flex;
+  padding: 16px;
+  position: relative;
+  flex-grow: 1;
+  align-self: stretch;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.frame1-text63 {
+  color: rgba(73, 69, 79, 1);
+  height: auto;
+  flex-grow: 1;
+  align-self: stretch;
+  text-align: left;
+  line-height: 20px;
+  margin-right: 0;
+  margin-bottom: 32px;
+}
+.frame1-actions2 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-color: transparent;
+  justify-content: flex-end;
+}
+.frame1-button2 {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-color: rgba(121, 116, 126, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 100px;
+  flex-direction: column;
+  justify-content: center;
+}
+.frame1-statelayer5 {
+  display: flex;
+  padding: 10px 24px;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  justify-content: center;
+}
+.frame1-text65 {
+  color: rgba(103, 80, 164, 1);
+  height: auto;
+  align-self: auto;
+  text-align: center;
+  line-height: 20px;
+  margin-right: 0;
+  margin-bottom: 0;
+}
+@media(max-width: 767px) {
+  .frame1-framecardrow {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
