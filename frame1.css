@@ -627,6 +627,6 @@
 @media(max-width: 767px) {
   .frame1-framecardrow {
     flex: 0 0 auto;
-    width: 767px;
+    width: 480px;
   }
 }
